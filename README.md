@@ -42,6 +42,18 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 
 Sign up at [emailjs.com](https://www.emailjs.com), create a service and a template (variables: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}`), then copy the IDs into the file above. The form will work in any environment that has these variables set; without them it will log an error on submit.
 
+### ConveyThis setup
+
+The language switcher is powered by ConveyThis. To enable it, add the following script tag to `index.html` just before the opening `<head>` tag, replacing `your_api_key` with the key from your ConveyThis dashboard:
+
+```html
+<!-- ConveyThis Script Start -->
+<script src="//cdn.conveythis.com/javascript/conveythis.js?api_key=your_api_key"></script>
+<!-- ConveyThis Script End -->
+```
+
+Sign up at [conveythis.com](https://www.conveythis.com) to get an API key and configure which languages to support.
+
 ## Notes
 
 - `npm run lint` runs ESLint. There are no tests.
