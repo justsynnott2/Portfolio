@@ -18,7 +18,7 @@ Personal portfolio site built with React 19 and Vite. A single-page, vertically 
 | Build tool | Vite |
 | Styling | Plain CSS with custom properties |
 | Email | EmailJS (`@emailjs/browser`) |
-| Deployment | *(add your host here — Vercel, Netlify, GitHub Pages, etc.)* |
+| Deployment | TBD |
 
 ## Getting started
 
