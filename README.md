@@ -9,6 +9,7 @@ Personal portfolio site built with React 19 and Vite. A single-page, vertically 
 - **Dark / light theme** — automatically follows the visitor's OS preference via `prefers-color-scheme`
 - **Resume download** — PDF served directly from the site via the header
 - **Responsive layout** — fluid typography with `clamp()`, breakpoints at 760 px (mobile) and 980 px (tablet)
+- **English / Spanish translation** — language switcher powered by [ConveyThis](https://www.conveythis.com)
 
 ## Tech stack
 
